@@ -1,0 +1,46 @@
+---
+  # Configuração do bot
+  ship_settings:
+    # Quantidade total de naves (total)
+    empty_qtd_spaceships: 70
+    
+    # Quantas naves enviar por turno?
+    qtd_send_spaceships: 15
+
+    # Deseja dar surrender? em qual boss? Ex... 5 = boss 5 - (zero = Sem Surrender)
+    boss_surrender: 0
+    
+    # Enviar só naves com munição em 100% ? (True/False)
+    send_ships_full: False
+
+    # Remover todas as naves antes de adicionar naves novas? (True/False)
+    remove_ships: True 
+
+    # Renovar equipe nos BOSS - 9, 14 e 19 ? (True/False)
+    key_waves: True
+    
+  # Valor de confiança das comparações entre as imagens pré-setadas e a sua tela
+  threshold:
+    # Valor padrão: 0.7
+    default: 0.7
+
+    # Valor padrão: 0.8
+    commom: 0.8
+    
+    # Valor padrão 0.9
+    hard: 0.9
+
+    # Valor padrão: 0.8
+    select_wallet_buttons: 0.8
+
+    # Valor padrão: 0.9
+    go-fight: 0.9
+
+    # Valor padrão: 0.9
+    green_bar: 0.95
+
+    # Valor padrão 0.98
+    15-15-ships: 0.98
+
+    # Valor padrão 0.95
+    0-15: 0.95
